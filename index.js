@@ -10,11 +10,11 @@ console.log("intial state", store.getState());
   console.log("updated state", store.getState())
 ); */
 
-/* store.dispatch(cakeActions.ordered());
+store.dispatch(cakeActions.ordered());
 store.dispatch(cakeActions.ordered());
 store.dispatch(cakeActions.ordered());
 store.dispatch(cakeActions.restocked(5));
-store.dispatch(iceCreamActions.restocked(5)); */
+store.dispatch(iceCreamActions.restocked(5));
 
 store.dispatch(fetchUsers());
 
