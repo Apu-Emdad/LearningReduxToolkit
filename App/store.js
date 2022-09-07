@@ -5,9 +5,9 @@ const configureStore = require("@reduxjs/toolkit").configureStore;
 const reduxLogger = require("redux-logger");
 
 //import slices
-const cakeReducer = require("./Features/cake/cakeSlice");
-const icecreamReducer = require("./Features/icecream/icecreamSlice");
-const usersSlice = require("./Features/users/userSlice");
+const cakeReducer = require("../Features/cake/cakeSlice");
+const icecreamReducer = require("../Features/icecream/icecreamSlice");
+const usersSlice = require("../Features/users/userSlice");
 
 //create logger
 const logger = reduxLogger.createLogger();

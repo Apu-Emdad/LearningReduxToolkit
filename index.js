@@ -1,8 +1,8 @@
-const { fetchUsers } = require("./App/Features/users/userSlice.js");
+const { fetchUsers } = require("./Features/users/userSlice.js");
 const store = require("./App/store.js");
-const cakeActions = require("./App/Features/cake/cakeSlice").cakeActions;
+const cakeActions = require("./Features/cake/cakeSlice").cakeActions;
 const iceCreamActions =
-  require("./App/Features/icecream/icecreamSlice").icecreamActions;
+  require("./Features/icecream/icecreamSlice").icecreamActions;
 
 console.log("intial state", store.getState());
 
